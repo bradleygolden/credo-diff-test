@@ -16,7 +16,7 @@
       color: true,
       checks: %{
         enabled: [
-          # {Credo.Check.Readability.StrictModuleLayout, []}
+          {Credo.Check.Readability.StrictModuleLayout, []}
         ]
       }
     }
