@@ -12,6 +12,10 @@ defmodule Example do
       :world
 
   """
+  alias Example.ModuleTwo
+
+  import Example.ModuleOne
+
   def hello do
     :world
   end
