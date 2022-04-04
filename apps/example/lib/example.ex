@@ -14,6 +14,8 @@ defmodule Example do
   """
   alias Example.ModuleTwo
 
+  require Example.ModuleThree
+
   import Example.ModuleOne
 
   def hello do
